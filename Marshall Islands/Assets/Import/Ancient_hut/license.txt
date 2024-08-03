@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ancient hut
+* source:	https://sketchfab.com/3d-models/ancient-hut-588af778f3b9471fa97f608537f0d6cc
+* author:	local.yany (https://sketchfab.com/local.yany)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ancient hut" (https://sketchfab.com/3d-models/ancient-hut-588af778f3b9471fa97f608537f0d6cc) by local.yany (https://sketchfab.com/local.yany) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

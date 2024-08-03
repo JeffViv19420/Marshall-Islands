@@ -7747,8 +7747,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water Specular Mirror
       objectReference: {fileID: 0}
+    - target: {fileID: 4251279788634018032, guid: be3a74ee4c9d4d899462b72a41f62728, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6529415330526082146, guid: be3a74ee4c9d4d899462b72a41f62728, type: 3}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529415330526082146, guid: be3a74ee4c9d4d899462b72a41f62728, type: 3}
+      propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6529415330526082146, guid: be3a74ee4c9d4d899462b72a41f62728, type: 3}
@@ -9557,6 +9565,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 418788, guid: 8d67c8074b567ec459905d65232f7154, type: 3}
   m_PrefabInstance: {fileID: 1478119066}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1491524320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1152052189803245944, guid: be3a74ee4c9d4d899462b72a41f62728, type: 3}
+  m_PrefabInstance: {fileID: 1186320245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1491524325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491524320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0645217c10af56645a6cd51cb422d2c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rate: 1
+  t: {fileID: 1907573082}
 --- !u!1 &1501325836
 GameObject:
   m_ObjectHideFlags: 0
@@ -12088,8 +12115,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -12172,7 +12199,14 @@ MonoBehaviour:
   CO2: {fileID: 2089660839}
   CH4: {fileID: 232272976}
   N2O: {fileID: 1127983030}
+  HFCS: {fileID: 696180143}
+  HCFCS: {fileID: 2070940686}
+  CFCS: {fileID: 882589214}
+  NF3: {fileID: 347393133}
+  SF6: {fileID: 172998603}
+  PFCS: {fileID: 2121109275}
   years: 2017
+  temp: 0
 --- !u!1 &1910239041
 GameObject:
   m_ObjectHideFlags: 0

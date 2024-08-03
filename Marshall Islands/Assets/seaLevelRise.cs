@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class seaLevelRise : MonoBehaviour
 {
-    public int rate;
+    public double rate;
+    public tempCalc t;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,7 @@ public class seaLevelRise : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position= new Vector3(transform.position.x, transform.position.y+rate/1000000f, transform.position.z);
+        rate = 2.85714*t.temp+0.714286;
+        transform.position= new Vector3(transform.position.x, transform.position.y+(float)(rate/100000), transform.position.z);
     }
 }

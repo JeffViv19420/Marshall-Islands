@@ -1,0 +1,11 @@
+Model Information:
+* title:	Village Hut house
+* source:	https://sketchfab.com/3d-models/village-hut-house-4d3ba38407ab4825b7b25bd69896f9a7
+* author:	nayan pachori (https://sketchfab.com/nayanpachori19)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Village Hut house" (https://sketchfab.com/3d-models/village-hut-house-4d3ba38407ab4825b7b25bd69896f9a7) by nayan pachori (https://sketchfab.com/nayanpachori19) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -27,7 +27,7 @@ public class tempCalc : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        years+=0.1f;
+        years+=0.01f;
         temp = 0.000043281f*(CO2.value-284.7f)*(years-1850f)+0.028f*0.000043281f*(CH4.value-801.42f)*(years-1850f)+0.28f*0.000043281f*(N2O.value-275.4f)*(years-1850f)
                           +0.000043281f*0.0004f*(HFCS.value-122)*(years-1850f)
                           +0.000043281f*0.00012f*(HCFCS.value-230)*(years-1850f)

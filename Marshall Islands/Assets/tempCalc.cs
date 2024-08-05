@@ -17,6 +17,7 @@ public class tempCalc : MonoBehaviour
     public Slider SF6;
     public Slider PFCS;
     public float years;
+    public Slider timespeed;
     public double temp;
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class tempCalc : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        years+=0.01f;
+        years+=timespeed.value*0.01f;
         temp = 0.000043281f*(CO2.value-284.7f)*(years-1850f)+0.028f*0.000043281f*(CH4.value-801.42f)*(years-1850f)+0.28f*0.000043281f*(N2O.value-275.4f)*(years-1850f)
                           +0.000043281f*0.0004f*(HFCS.value-122)*(years-1850f)
                           +0.000043281f*0.00012f*(HCFCS.value-230)*(years-1850f)
@@ -35,6 +36,6 @@ public class tempCalc : MonoBehaviour
                           +0.000043281f*0.00165f*(NF3.value-1.5)*(years-1850f)
                           +0.000043281f*0.0023f*(SF6.value-9)*(years-1850f)
                           +0.000043281f*0.0007f*(PFCS.value-83)*(years-1850f);
-        //tempLabel.text = (temp).ToString()+"°C";
+        tempLabel.text = "Year: "+((int)years).ToString();
     }
 }

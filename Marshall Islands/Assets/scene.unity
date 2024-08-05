@@ -1495,6 +1495,7 @@ MonoBehaviour:
   inputField: {fileID: 1400888866}
   textField: {fileID: 941779450}
   key: 
+  g: {fileID: 941779453}
 --- !u!4 &154212863
 Transform:
   m_ObjectHideFlags: 0
@@ -7009,6 +7010,7 @@ GameObject:
   - component: {fileID: 941779452}
   - component: {fileID: 941779451}
   - component: {fileID: 941779450}
+  - component: {fileID: 941779453}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -7133,6 +7135,25 @@ RectTransform:
   m_AnchoredPosition: {x: 201, y: -33}
   m_SizeDelta: {x: 380, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &941779453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941779449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78404e6aa3de83244bb7a275e689b419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parse: {fileID: 941779450}
+  Co2: 0
+  Ch4: 0
+  N2o: 0
+  cs: {fileID: 2089660839}
+  ch: {fileID: 232272976}
+  ns: {fileID: 1127983030}
 --- !u!1001 &950284454
 PrefabInstance:
   m_ObjectHideFlags: 0

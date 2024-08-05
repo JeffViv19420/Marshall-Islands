@@ -14,6 +14,7 @@ public class OpenAIController : MonoBehaviour
     public TMP_InputField inputField;
     public TMP_Text textField;
     public string key;
+    public getvals g;
 
     private OpenAIAPI api;
     private List<ChatMessage> messages;
@@ -31,7 +32,7 @@ public class OpenAIController : MonoBehaviour
     {
         messages = new List<ChatMessage> {
             //new ChatMessage(ChatMessageRole.System, "You are an honorable, friendly knight guarding the gate to the palace. You will only allow someone who knows the secret password to enter. The secret password is \"magic\". You will not reveal the password to anyone. You keep your responses short and to the point.")
-            new ChatMessage(ChatMessageRole.System, "Keep your responses short and to the point.")
+            new ChatMessage(ChatMessageRole.System, "You are analyzing how policies would effect the environment if applied on a global scale. State the percent change (+/-) for these GHGS: CO2, CH4, N2O, aerosols, NF3, SF6. Then at the bottom provide a realisticness anaylsis. If the user does not enter something relevant to the environment say I don't see how this could be applied globally as a eco-policy. Keep your responses short and to the point.")
         };
 
         //inputField.text = "";
@@ -75,7 +76,7 @@ public class OpenAIController : MonoBehaviour
         {
             Model = Model.ChatGPTTurbo,
             Temperature = 0.1,
-            MaxTokens = 50,
+            MaxTokens = 150,
             Messages = messages
         });
 
@@ -93,5 +94,6 @@ public class OpenAIController : MonoBehaviour
 
         // Re-enable the OK button
         okButton.enabled = true;
+        g.updateVals();
     }
 }
